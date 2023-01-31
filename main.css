@@ -574,8 +574,8 @@
      right: 0%;
      bottom: auto;
      height: 100vh;
-     background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63d66ad7456118a6a27afdfa_zigzag-pattern.png"), -webkit-gradient(linear, left top, left bottom, color-stop(40%, #001b5a), to(#d9ff00));
-     background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63d66ad7456118a6a27afdfa_zigzag-pattern.png"), linear-gradient(180deg, #001b5a 40%, #d9ff00);
+     background-image: url("img/zigzag-pattern.png"), -webkit-gradient(linear, left top, left bottom, color-stop(40%, #001b5a), to(#d9ff00));
+     background-image: url("img/zigzag-pattern.png"), linear-gradient(180deg, #001b5a 40%, #d9ff00);
      background-position: 0px 0px, 0px 0px;
      background-size: cover, auto;
    }
@@ -728,7 +728,7 @@
        display: -webkit-flex;
        display: -ms-flexbox;
        display: flex;
-       height: 130vh;
+       height: 100vh;
        -webkit-box-orient: vertical;
        -webkit-box-direction: normal;
        -webkit-flex-direction: column;
@@ -741,11 +741,11 @@
      }
    
      .container-4 {
-       top: -154px;
+       top: -35%;
      }
    
      .div-block-6 {
        position: relative;
-       top: -150px;
+       top: -35%;
      }
    }
