@@ -11895,7 +11895,7 @@ Webflow.require("ix2").init({
                       selector: ".frame",
                       selectorGuids: ["d00c05c4-dc94-c83b-5b60-bbd1fdaba22a"],
                     },
-                    xValue: -300,
+                    xValue: -400,
                     xUnit: "vw",
                     yUnit: "PX",
                     zUnit: "PX",
