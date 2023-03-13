@@ -4650,43 +4650,7 @@
     var r = n(4);
     r.define(
       "brand",
-      (t.exports = function (t) {
-        var e,
-          n = {},
-          i = document,
-          o = t("html"),
-          a = t("body"),
-          u = ".w-webflow-badge",
-          c = window.location,
-          s = /PhantomJS/i.test(navigator.userAgent),
-          f =
-            "fullscreenchange webkitfullscreenchange mozfullscreenchange msfullscreenchange";
-        function l() {
-          var n =
-            i.fullScreen ||
-            i.mozFullScreen ||
-            i.webkitIsFullScreen ||
-            i.msFullscreenElement ||
-            Boolean(i.webkitFullscreenElement);
-          t(e).attr("style", n ? "display: none !important;" : "");
-        }
-        function d() {
-          var t = a.children(u),
-            n = t.length && t.get(0) === e,
-            i = r.env("editor");
-          n ? i && t.remove() : (t.length && t.remove(), i || a.append(e));
-        }
-        return (
-          (n.ready = function () {
-            var n,
-              r,
-              a,
-              u = o.attr("data-wf-status"),
-              p = o.attr("data-wf-domain") || "";
-          }),
-          n
-        );
-      })
+      (t.exports = function (t) {})
     );
   },
   function (t, e, n) {
@@ -4708,6 +4672,7 @@
      * _.keys
      * _.has
      * _.now
+     * _.template (webflow: upgraded to 1.13.6)
      *
      * http://underscorejs.org
      * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -4890,7 +4855,8 @@
         g = /\\|'|\r|\n|\u2028|\u2029/g,
         y = function (t) {
           return "\\" + _[t];
-        };
+        },
+        m = /^\s*(\w|\$)+\s*$/;
       return (
         (t.template = function (e, n, r) {
           !n && r && (n = r), (n = t.defaults({}, n, t.templateSettings));
@@ -4916,22 +4882,26 @@
               t
             );
           }),
-            (a += "';\n"),
-            n.variable || (a = "with(obj||{}){\n" + a + "}\n"),
-            (a =
-              "var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};\n" +
-              a +
-              "return __p;\n");
+            (a += "';\n");
+          var u,
+            c = n.variable;
+          if (c) {
+            if (!m.test(c))
+              throw new Error("variable is not a bare identifier: " + c);
+          } else (a = "with(obj||{}){\n" + a + "}\n"), (c = "obj");
+          a =
+            "var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};\n" +
+            a +
+            "return __p;\n";
           try {
-            var u = new Function(n.variable || "obj", "_", a);
+            u = new Function(n.variable || "obj", "_", a);
           } catch (t) {
             throw ((t.source = a), t);
           }
-          var c = function (e) {
-              return u.call(this, e, t);
-            },
-            s = n.variable || "obj";
-          return (c.source = "function(" + s + "){\n" + a + "}"), c;
+          var s = function (e) {
+            return u.call(this, e, t);
+          };
+          return (s.source = "function(" + c + "){\n" + a + "}"), s;
         }),
         t
       );
@@ -11895,7 +11865,7 @@ Webflow.require("ix2").init({
                       selector: ".frame",
                       selectorGuids: ["d00c05c4-dc94-c83b-5b60-bbd1fdaba22a"],
                     },
-                    xValue: -400,
+                    xValue: -300,
                     xUnit: "vw",
                     yUnit: "PX",
                     zUnit: "PX",
