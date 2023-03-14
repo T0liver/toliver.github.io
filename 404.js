@@ -26,4 +26,15 @@ var sites = Array(
 "https://stackoverflow.com/search?q=",
 "https://hu.wikipedia.org/w/index.php?go=Menj&search=",
 "https://github.com/search?q=",
-"https://www.pexels.com/hu-hu/kereses/");
+"https://www.pexels.com/hu-hu/kereses/",
+"https://www.arukereso.hu/CategorySearch.php?st=",
+"https://www.mindmegette.hu/kereses/",
+"https://alternativeto.net/browse/search/?q=",
+"https://www.deviantart.com/search?q=",
+"https://downforeveryoneorjustme.com/",
+"https://giphy.com/search/",
+"https://bookline.hu/search/search.action?searchfield=php",
+"https://moly.hu/kereses?q=",
+"https://www.goodreads.com/search?query=",
+"https://imgur.com/search?q=",
+"");
