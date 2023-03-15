@@ -59,5 +59,10 @@ var sites = Array(
   "https://moly.hu/kereses?q=",
   "https://www.goodreads.com/search?query=",
   "https://imgur.com/search?q=",
-  ""
+  "https://vimeo.com/search?q=",
+  "https://www.ikea.com/hu/hu/search/?q=",
+  "https://www.spar.hu/kereses?q=",
+  "https://tesco.hu/kereses/?q=",
+  "https://www.wikihow.com/wikiHowTo?search=",
+  "https://hogyankell.hu/Hogyankell:GoogleSearch?q="
 );
