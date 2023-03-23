@@ -64,5 +64,6 @@ var sites = Array(
   "https://www.spar.hu/kereses?q=",
   "https://tesco.hu/kereses/?q=",
   "https://www.wikihow.com/wikiHowTo?search=",
-  "https://hogyankell.hu/Hogyankell:GoogleSearch?q="
+  "https://hogyankell.hu/Hogyankell:GoogleSearch?q=",
+  https://www.urbandictionary.com/define.php?term=
 );
