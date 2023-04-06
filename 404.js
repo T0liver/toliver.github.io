@@ -41,7 +41,6 @@ var sites = Array(
   "https://www.answers.com/search?q=",
   "https://www.reddit.com/search/?q=",
   "https://www.php.net/manual-lookup.php?pattern=",
-  "https://www.pornhub.com/video/search?search=",
   "https://twitter.com/search?q=",
   "https://web.archive.org/web/*/",
   "https://www.imdb.com/find/?q=",
@@ -65,5 +64,8 @@ var sites = Array(
   "https://tesco.hu/kereses/?q=",
   "https://www.wikihow.com/wikiHowTo?search=",
   "https://hogyankell.hu/Hogyankell:GoogleSearch?q=",
-  https://www.urbandictionary.com/define.php?term=
+  "https://www.urbandictionary.com/define.php?term=",
+  "https://www.etymonline.com/search?q="
 );
+
+// A jövőben hozzá kéne adni ezt is, de egy kis csavarral "https://www.pornhub.com/video/search?search=",
