@@ -301,100 +301,6 @@ input.w-button {
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
-.w-webflow-badge,
-.w-webflow-badge * {
-  position: static;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
-  z-index: auto;
-  display: block;
-  visibility: visible;
-  overflow: visible;
-  overflow-x: visible;
-  overflow-y: visible;
-  box-sizing: border-box;
-  width: auto;
-  height: auto;
-  max-height: none;
-  max-width: none;
-  min-height: 0;
-  min-width: 0;
-  margin: 0;
-  padding: 0;
-  float: none;
-  clear: none;
-  border: 0 none transparent;
-  border-radius: 0;
-  background: none;
-  background-image: none;
-  background-position: 0% 0%;
-  background-size: auto auto;
-  background-repeat: repeat;
-  background-origin: padding-box;
-  background-clip: border-box;
-  background-attachment: scroll;
-  background-color: transparent;
-  box-shadow: none;
-  opacity: 1;
-  transform: none;
-  transition: none;
-  direction: ltr;
-  font-family: inherit;
-  font-weight: inherit;
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-style: inherit;
-  font-variant: inherit;
-  text-align: inherit;
-  letter-spacing: inherit;
-  text-decoration: inherit;
-  text-indent: 0;
-  text-transform: inherit;
-  list-style-type: disc;
-  text-shadow: none;
-  font-smoothing: auto;
-  vertical-align: baseline;
-  cursor: inherit;
-  white-space: inherit;
-  word-break: normal;
-  word-spacing: normal;
-  word-wrap: normal;
-}
-.w-webflow-badge {
-  position: fixed !important;
-  display: inline-block !important;
-  visibility: visible !important;
-  z-index: 2147483647 !important;
-  top: auto !important;
-  right: 12px !important;
-  bottom: 12px !important;
-  left: auto !important;
-  color: #aaadb0 !important;
-  background-color: #fff !important;
-  border-radius: 3px !important;
-  padding: 6px 8px 6px 6px !important;
-  font-size: 12px !important;
-  opacity: 1 !important;
-  line-height: 14px !important;
-  text-decoration: none !important;
-  transform: none !important;
-  margin: 0 !important;
-  width: auto !important;
-  height: auto !important;
-  overflow: visible !important;
-  white-space: nowrap;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-.w-webflow-badge > img {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  vertical-align: middle !important;
-}
 h1,
 h2,
 h3,
@@ -2547,9 +2453,9 @@ textarea.w-select {
   right: 0%;
   bottom: auto;
   height: 100vh;
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63d66ad7456118a6a27afdfa_zigzag-pattern.png"),
+  background-image: url("img/zigzag-pattern.png"),
     -webkit-gradient(linear, left top, left bottom, color-stop(40%, #001b5a), to(#d9ff00));
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63d66ad7456118a6a27afdfa_zigzag-pattern.png"),
+  background-image: url("img/zigzag-pattern.png"),
     linear-gradient(180deg, #001b5a 40%, #d9ff00);
   background-position: 0px 0px, 0px 0px;
   background-size: cover, auto;
@@ -2641,9 +2547,9 @@ textarea.w-select {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63e540f7d794ca581bacab54_dot-pattern.png"),
+  background-image: url("img/dot-pattern.png"),
     -webkit-gradient(linear, left top, left bottom, color-stop(16%, #d9ff00), color-stop(99%, #0bf));
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63e540f7d794ca581bacab54_dot-pattern.png"),
+  background-image: url("img/dot-pattern.png"),
     linear-gradient(180deg, #d9ff00 16%, #0bf 99%);
   background-position: 0px 0px, 0px 0px;
   background-size: 2000px, auto;
@@ -2693,7 +2599,7 @@ textarea.w-select {
   min-height: 150px;
   padding: 10px;
   background-color: #d9ff4d;
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63e541248c0c8e0f74fcbedb_paper-textures-background.png");
+  background-image: url("img/paper-textures-background.png");
   background-position: 0px 0px;
   background-size: cover;
   font-family: Exo, sans-serif;
@@ -2764,7 +2670,7 @@ textarea.w-select {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63e6999125f5aa078596482a_IMG_0171.jpg");
+  background-image: url("img/IMG_0171.jpg");
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: fixed;
@@ -2794,7 +2700,7 @@ textarea.w-select {
   width: 98vw;
   height: 100vh;
   max-width: 98vw;
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63e89ee08b497e72b3448182_hexagonical-pattern.png");
+  background-image: url("img/hexagonical-pattern.png");
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: fixed;
@@ -2861,9 +2767,9 @@ textarea.w-select {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63e8a28960afc23390a2fdf7_kigyozo-pattern.png"),
+  background-image: url("img/kigyozo-pattern.png"),
     -webkit-gradient(linear, left top, left bottom, color-stop(17%, #080027), to(rgba(255, 123, 0, 0.49)));
-  background-image: url("https://uploads-ssl.webflow.com/63c94dcf4efb43c5902f381f/63e8a28960afc23390a2fdf7_kigyozo-pattern.png"),
+  background-image: url("img/kigyozo-pattern.png"),
     linear-gradient(180deg, #080027 17%, rgba(255, 123, 0, 0.49));
   background-position: 50% 50%, 0px 0px;
   background-size: auto, auto;
