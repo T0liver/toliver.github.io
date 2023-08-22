@@ -67,5 +67,3 @@ var sites = Array(
   "https://www.urbandictionary.com/define.php?term=",
   "https://www.etymonline.com/search?q="
 );
-
-// A jövőben hozzá kéne adni ezt is, de egy kis csavarral "https://www.pornhub.com/video/search?search=",

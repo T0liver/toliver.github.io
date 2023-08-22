@@ -2030,6 +2030,7 @@ textarea.w-select {
   margin-bottom: 0px;
   padding: 0px;
   clear: none;
+  overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -2088,7 +2089,7 @@ textarea.w-select {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 10%;
+  margin-right: -1%;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -3492,6 +3493,31 @@ textarea.w-select {
     position: relative;
     right: auto;
     overflow: visible;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .kivagyok {
+    line-height: 32px;
+  }
+
+  .fotoemberke {
+    left: 160px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .kivagyok {
+    line-height: 25px;
+  }
+
+  .footer-szoveg {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .footer-linkek {
+    margin: 20px 40px 10px;
   }
 }
 
